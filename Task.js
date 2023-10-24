@@ -33,7 +33,7 @@ function Task(props) {
                 marginTop: 20,
                 fontFamily:'cambria'
             }}>    
-                <Text style={{textAlign: "center",fontWeight: "bold",fontFamily:'cambria'}}>
+                <Text style={{color: "white", textAlign: "center",fontWeight: "bold",fontFamily:'cambria'}}>
                     Fait
                 </Text>
             </TouchableOpacity>
@@ -50,7 +50,7 @@ function Task(props) {
                 borderRadius: 20,
                 marginTop: 20,
             }}>    
-                <Text style={{textAlign: "center",fontWeight: "bold",fontfamily: 'cambria',}}>
+                <Text style={{color: "white", textAlign: "center",fontWeight: "bold",fontfamily: 'cambria',}}>
                     Retour
                 </Text>
             </TouchableOpacity>

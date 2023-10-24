@@ -42,7 +42,13 @@ const Add = () => {
                       width: 128,
                       borderRadius: 20,
                       }}>
-                <Text style={{textAlign: "center",fontWeight: "bold",fontFamily:'cambria'}}>Enregistrer</Text>
+                <Text style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  fontFamily:'cambria',
+                  color: "white",
+                  }}>Enregistrer
+                  </Text>
             </TouchableOpacity>
      </View>
      <View style={{margin: 15}}>
@@ -56,7 +62,13 @@ const Add = () => {
                 width: 128,
                 borderRadius: 20,
                 }}>
-             <Text style={{textAlign: "center",fontWeight: "bold",fontFamily:'cambria'}}>Annuler</Text>
+             <Text style={{
+              textAlign: "center",
+              fontWeight: "bold",
+              fontFamily:'cambria',
+              color: "white",
+              }}>Annuler
+              </Text>
             </TouchableOpacity>
      </View>
                 </View>
